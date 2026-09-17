@@ -89,7 +89,6 @@ $: $mode && setMode($mode)
 
   <button class="btgroup__button"
     disabled={!cancompile} on:click={handle_compile}>
-    <WizardHat aria-hidden="true" focusable="false" width="26px" height="26px" />
     compile</button>
 </div>
 
